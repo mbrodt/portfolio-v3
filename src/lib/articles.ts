@@ -14,7 +14,7 @@ export interface ArticleWithSlug extends Article {
 async function importArticle(
   articleFilename: string,
 ): Promise<ArticleWithSlug> {
-  let { article } = await import(`../app/articles/${articleFilename}`)
+  let { article } = await import(`../app/blog/${articleFilename}`)
 
   return {
     slug: articleFilename.replace(/(\/page)?\.mdx$/, ""),
@@ -24,7 +24,7 @@ async function importArticle(
 
 export async function getAllArticles() {
   let articleFilenames = await glob("*/page.mdx", {
-    cwd: "./src/app/articles",
+    cwd: "./src/app/blog",
   })
 
   let articles = await Promise.all(articleFilenames.map(importArticle))
