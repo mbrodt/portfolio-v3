@@ -1,0 +1,32 @@
+import { ArticleLayout } from "@/components/ArticleLayout"
+
+export const article = {
+  title: "Just-in-time Learning",
+  date: "2024-01-26",
+  description:
+    "I was watching an old conference talk by David Heinemeier Hansson, where he discussed the concept of 'JIT Learning'. About learning exactly what you need to, WHEN you need to learn it.",
+  author: "Mads Brodt",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+I was watching an old conference talk by David Heinemeier Hansson, where he discussed the concept of "JIT Learning".
+
+In case you're not familiar, JIT stands for "Just-in-time". It's typically used to describe compilers that compile code right before running it (the opposite of "ahead-of-time" like Java and C++ usually do).
+
+But in the example of JIT Learning, the idea is to only learn exactly what you need to, WHEN you need to learn it.
+
+So instead of saying something like "I want to learn front-end development", try to think of something you want to build instead.
+
+Maybe it's a website for your local book club? That means it's time to learn HTML. When you have the basic setup, you probably want to make it look better - so now you might dive into CSS.
+
+Learning step-by-step like this as you need something is a lot easier than trying to learn NextJS, React, HTML, CSS, Tailwind and NodeJS - all at the same time. The surface area is simply too large.
+
+Start simple. Then add complexity as you go when your website / app needs to do more things.
+
+Embrace JIT Learning.
