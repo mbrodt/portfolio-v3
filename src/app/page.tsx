@@ -111,7 +111,7 @@ function Newsletter() {
         <span className="ml-3">Sign up for the Top 3 in Tech newsletter</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Join 7000+ front-end developers receiving biweekly updates from the
+        Join 11.000+ front-end developers receiving biweekly updates from the
         front-end space, amazing resources to get smarter, and cool new tools
         worth checking out.
       </p>
@@ -184,13 +184,20 @@ function Resume() {
   let resume: Array<Role> = [
     {
       company: "Dwarf",
-      title: "Senior front-end developer",
+      title: "Lead front-end developer",
       logo: logoDwarf,
-      start: "2022",
+      start: "2024",
       end: {
         label: "Present",
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: "Dwarf",
+      title: "Senior front-end developer",
+      logo: logoDwarf,
+      start: "2022",
+      end: "2024",
     },
     {
       company: "Dwarf",
