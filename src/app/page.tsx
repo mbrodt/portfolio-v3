@@ -275,9 +275,9 @@ export default async function Home() {
             Hi there, I'm Mads
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I'm a senior front-end developer from Copenhagen. I enjoy creating
-            and supporting websites and applications using modern technologies.
-            I also enjoy writing about my experiences and sharing what I've
+            I'm a Lead front-end developer from Copenhagen. I enjoy creating and
+            supporting websites and applications using modern technologies. I
+            also enjoy writing about my experiences and sharing what I've
             learned with others.
           </p>
           <div className="mt-6 flex gap-6">

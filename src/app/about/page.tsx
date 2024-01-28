@@ -50,7 +50,7 @@ function MailIcon(props: React.ComponentPropsWithoutRef<"svg">) {
 export const metadata: Metadata = {
   title: "About",
   description:
-    "I'm Mads Brodt. Senior front-end developer from Copenhagen, Denmark",
+    "I'm Mads Brodt. Lead front-end developer from Copenhagen, Denmark",
 }
 
 export default function About() {
@@ -73,7 +73,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I'm Mads, a senior front-end developer from Copenhagen, Denmark.
+              I'm Mads, a Lead front-end developer from Copenhagen, Denmark.
               I've been programming for quite a few years now, but I honestly
               didn't love it at first. During my studies at the IT University of
               Copenhagen I got introduced to lots of different coding topics,
