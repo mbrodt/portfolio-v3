@@ -1,0 +1,49 @@
+import { ArticleLayout } from "@/components/ArticleLayout"
+
+export const article = {
+  author: "Mads Brodt",
+  date: "2024-01-31",
+  title: "State of React",
+  description: "What's going on with React and NextJS?",
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+React is awesome. It’s the most popular front-end framework for building modern web applications. And yes, it’s technically “just” a library - but it’s almost always used as a framework, so referring to it as such generally makes life easier.
+
+React pioneered the idea of using components as “building blocks”. The idea that each component is it’s own little unit that can compose with other components to build entire websites- and apps was revolutionary. And for that reason (among others), React is still the go-to framework for most developers and companies in 2024.
+
+But something interesting has been happening to React in the last ~year or so: React Server Components was released, bringing a new way to load data, reduce bundlesize and run server-only code like connecting to a database right in your React app. This paradigm shift has been long underway, but after being implemented in NextJS in 2023 with the App router, developers finally had a concrete way to actually use server components in their apps.
+
+This has no doubt unlocked some incredibly interesting patterns that generally make working with React better.
+
+But it has also introduced a whole lot of complexity and mental gymnastics that I, and many other talented developers, have struggled to really wrap their head around. Let’s look at an example from [PatrickJS](https://twitter.com/PatrickJS__) on Twitter:
+
+![React example](/post_images/react.webp)
+
+If you’ve been writing React for a while, you’ll expect the above code to compile and run without issues. It’s the classic Counter component, “hello-world-for-React” example. And it will work just fine if you’ve setup your React app with something like Vite.
+
+But if you run the above code in NextJS (which is the preferred way to setup a brand new React app as per the [official Getting Started docs](https://react.dev/learn/start-a-new-react-project)), you’ll get an error. That’s because pages in the “app” directory in NextJS are Server Components by default - which gives them some unique characteristics that can be quite nice, but also incredibly confusing.
+
+This example is an easy fix: just toss a “use client” directory on top of the file and it’ll work. Except if you’re actually using Server Component features like marking the Home function as “async” in order to await some data fetching. Then that part of the code won’t run, as the whole file is now running on the client.
+
+And while this example might seem a bit contrived, I’ve been building many projects using the App router over the last year. And I constantly run into issues where the server/client boundary makes my lifer harder instead of easier. At first I thought it’d just take some time and re-learning to adjust to this new pattern. But a year later, it still trips me up pretty often. That’s not good for such a popular framework 🤷‍♂️
+
+Now to be clear, I’m not recommending against learning or using React. It’s still the most sought-after skill on the job market in terms of modern front-end development positions. And the React ecosystem of packages / tools is unparalleled with amazing libraries like Framer Motion, shadcn/ui, TanStack Query and tons of others.
+
+But the fact that it feels like learning a completely new tool, now with more / different ways to solve many of the same problems, and the current friction between the “NextJS React” and “Classic React” isn’t great. And I’m not the only one who thinks so:
+
+[Kind of annoyed at React](https://blog.cassidoo.co/post/annoyed-at-react/)
+
+[Five years ago, a simple ‘Hello World’ in React was straightforward](https://twitter.com/PatrickJS__/status/1751103258511523847)
+
+[“I want so badly for React to return to the client-side-focused and client-performance-obsessed utility I originally loved”](https://twitter.com/tannerlinsley/status/1746970043836158330)
+
+I want to stress this again though: Learning React is still an excellent idea. It’s a great framework with plenty of amazing features. Server Components (and their implementation) is pushing the boundary of what’s possible on the Web.
+
+I just wish we didn’t have this current “split” that’s going on right now, and could instead focus entirely on being excited about building cool stuff with React.

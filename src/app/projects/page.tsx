@@ -13,8 +13,19 @@ import logoDhf from "@/images/logos/dhf_case_icon.svg"
 import logoReflection from "@/images/logos/reflection_case_icon.svg"
 import logoBonnier from "@/images/logos/bonnier_case_icon.svg"
 import logoTv2 from "@/images/logos/tv2_case_icon.svg"
+import logoAf from "@/images/logos/af_icon.svg"
 
 const projects = [
+  {
+    name: "Augustinus Fonden",
+    description: `The new Augustinus Foundation website was developed with my colleagues at Dwarf. The site is built on Sanity CMS using NextJS, and encasuplates the Foundation's mission and history with a modern and accessible design - while making it easy for users to find the information they need.`,
+    link: {
+      href: "https://augustinusfonden.dk",
+      label: "augustinusfonden.dk",
+    },
+    logo: logoAf,
+    bgColor: "#ff0000",
+  },
   {
     name: "Learning Through Play",
     description: `The Learning Through Play website was developed for The Lego
@@ -40,7 +51,7 @@ const projects = [
   {
     name: "Digital Reflection Tool",
     description:
-      "A real-time, websocket-powered reflection tool for Lego Foundation facilitators to use in workshops. Another Dwarf project helping the Foundation spread their mission of making learning through play more effective for both children and adults",
+      "A real-time, websocket-powered reflection tool for Lego Foundation facilitators to use in workshops. Another Dwarf project helping the Foundation spread their mission of making learning through play more effective for both children and adults.",
     link: {
       href: "https://reflections.learningthroughplay.com",
       label: "reflections.learningthroughplay.com",
@@ -51,7 +62,7 @@ const projects = [
   {
     name: "Bonnier Publications",
     description:
-      "Operating as a consultant, I helped Bonnier Publications architect and develop a new platform for their brand websites. The platform is a whitelabel solution used to power all of their digital magazines, including iFORM, Bo Bedre and Illustreret Videnskab among others",
+      "Operating as a consultant, I helped Bonnier Publications architect and develop a new platform for their brand websites. The platform is a whitelabel solution used to power all of their digital magazines, including iFORM, Bo Bedre and Illustreret Videnskab among others.",
     link: { href: "https://illvid.dk", label: "illvid.dk" },
     logo: logoBonnier,
     bgColor: "#000000",
