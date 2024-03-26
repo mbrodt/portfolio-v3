@@ -24,7 +24,7 @@ const projects = [
       label: "augustinusfonden.dk",
     },
     logo: logoAf,
-    bgColor: "#ff0000",
+    bgColor: "#ffffff",
   },
   {
     name: "Learning Through Play",
