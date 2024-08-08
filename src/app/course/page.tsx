@@ -37,11 +37,9 @@ export default function Example() {
             priority
           />
           <div className="mt-24 sm:mt-32 lg:mt-16">
-            <a href="#" className="inline-flex space-x-6">
-              <span className="rounded-full bg-rose-600/10 px-3 py-1 font-semibold leading-6 text-rose-600 ring-1 ring-inset ring-rose-600/10">
-                Video course launching Q4 2024
-              </span>
-            </a>
+            <span className="rounded-full bg-rose-600/10 px-3 py-1 font-semibold leading-6 text-rose-600 ring-1 ring-inset ring-rose-600/10">
+              Video course launching Q4 2024
+            </span>
           </div>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             Kickstart your Front-End career
