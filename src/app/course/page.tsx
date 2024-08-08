@@ -59,58 +59,59 @@ export default function Example() {
               <span className="text-lg text-white/50	 line-through">($119)</span>
             </a>
           </div>
-          <ul className="mt-10 space-y-4"></ul>
-          <li className="flex items-start text-gray-800">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="mr-2 h-6 w-6 text-rose-600"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M5 13l4 4L19 7"
-              ></path>
-            </svg>
-            Based on real-world experience from the industry
-          </li>
-          <li className="flex items-start text-gray-800">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="mr-2 h-6 w-6 text-rose-600"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M5 13l4 4L19 7"
-              ></path>
-            </svg>
-            Aimed at beginners and devs with 1-3 years of experience
-          </li>{" "}
-          <li className="flex items-start text-gray-800">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-              className="mr-2 h-6 w-6 text-rose-600"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M5 13l4 4L19 7"
-              ></path>
-            </svg>
-            Learn how to go from 0 to landing and thriving in a front-end role
-          </li>
+          <ul className="mt-10 space-y-2">
+            <li className="flex items-start text-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+              Based on real-world experience from the industry
+            </li>
+            <li className="flex items-start text-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+              Aimed at beginners and devs with 1-3 years of experience
+            </li>{" "}
+            <li className="flex items-start text-gray-800">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+                className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                ></path>
+              </svg>
+              Learn how to go from 0 to landing and thriving in a front-end role
+            </li>
+          </ul>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
