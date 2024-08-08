@@ -1,7 +1,7 @@
 import { type Metadata } from "next"
 
 import "@/styles/tailwind.css"
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata: Metadata = {
   title: {
     template: "%s - Mads Brodt",
@@ -22,7 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased" suppressHydrationWarning>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+      </body>
     </html>
   )
 }
