@@ -1,7 +1,17 @@
 import avatarImage from "@/images/avatar.png"
+import { Metadata } from "next"
 import Image from "next/image"
 
-export default function Example() {
+export const metadata: Metadata = {
+  title: "Kickstart your Front-End career",
+  description:
+    "Learn what it takes to work as a professional front-end developer, what necessary skills are expected, and how to land a front-end job.",
+  openGraph: {
+    images: ["/image.png"],
+  },
+}
+
+export default function Course() {
   return (
     <div className="relative isolate overflow-hidden bg-white">
       <svg
@@ -70,8 +80,8 @@ export default function Example() {
                 className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M5 13l4 4L19 7"
                 ></path>
               </svg>
@@ -87,8 +97,8 @@ export default function Example() {
                 className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M5 13l4 4L19 7"
                 ></path>
               </svg>
@@ -104,8 +114,8 @@ export default function Example() {
                 className="mr-2 h-6 w-6 flex-shrink-0 text-rose-600"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="M5 13l4 4L19 7"
                 ></path>
               </svg>
