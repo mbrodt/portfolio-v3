@@ -111,7 +111,7 @@ function Newsletter() {
         <span className="ml-3">Sign up for the Top 3 in Tech newsletter</span>
       </h2>
       <p className="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
-        Join 11.000+ front-end developers receiving biweekly updates from the
+        Join 13.000+ front-end developers receiving biweekly updates from the
         front-end space, amazing resources to get smarter, and cool new tools
         worth checking out.
       </p>
