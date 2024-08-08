@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Learn what it takes to work as a professional front-end developer, what necessary skills are expected, and how to land a front-end job.",
   openGraph: {
-    images: ["/image.png"],
+    images: ["/course-seo.png"],
   },
 }
 
@@ -128,7 +128,7 @@ export default function Course() {
             <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
               <img
                 alt="App screenshot"
-                src="/image.png"
+                src="/course-presale.png"
                 width={2432}
                 height={1442}
                 className="w-[76rem] rounded-md object-cover shadow-2xl ring-1 ring-gray-900/10"
