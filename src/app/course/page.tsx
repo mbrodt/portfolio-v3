@@ -52,13 +52,17 @@ export default function Course() {
             </span>
           </div>
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Kickstart your Front-End career
+            Landing a front-end job is hard.
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Learn what it takes to work as a professional front-end developer.
-            I'll walk you through how to build the necessary skills, what to
-            expect when working as a front-end dev, and how to land a front-end
-            job.
+            The expectations for juniors are through the roof, and the job
+            market is especially tough right now. In this self-paced video
+            course I'll use my experience working as a Lead Front-End Engineer
+            in charge of hiring, to teach you what it takes to work as a
+            professional front-end developer. I'll walk you through how to build
+            the necessary skills, what to expect when working as a front-end
+            dev, and how to land a great front-end job - even if you don't have
+            any prior experience.
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
@@ -122,6 +126,27 @@ export default function Course() {
               Learn how to go from 0 to landing and thriving in a front-end role
             </li>
           </ul>
+          <div className="text prose mt-10 leading-8 text-gray-600">
+            <p> This course is for you if you're either:</p>
+            <ol className="[&>li]:my-1">
+              <li>
+                Just getting started with front-end and find it fascinating, but
+                aren't sure how to move to the next level
+              </li>
+              <li>
+                Have done some technical courses, maybe gone to school or a
+                bootcamp, but haven't managed to land that first job yet
+              </li>
+              <li>
+                Might already have a job but are still within the first few
+                years of their career and look for guidance and what to improve
+                on from here
+              </li>
+            </ol>
+            And if you decide it wasn't the right fit for you (either now or
+            when the course is launched), you'll get a full refund - no
+            questions asked.
+          </div>
         </div>
         <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
           <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
