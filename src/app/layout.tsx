@@ -2,6 +2,7 @@ import { type Metadata } from "next"
 
 import "@/styles/tailwind.css"
 import { Analytics } from "@vercel/analytics/react"
+import Script from "next/script"
 export const metadata: Metadata = {
   title: {
     template: "%s - Mads Brodt",
@@ -25,6 +26,11 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="a5527196-e11d-4896-8f5e-58aeea233261"
+        />
       </body>
     </html>
   )
