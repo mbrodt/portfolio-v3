@@ -41,7 +41,7 @@ export default function Course() {
             strokeWidth={0}
           />
         </svg>
-        <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-32 lg:flex lg:px-8 lg:py-40">
+        <div className="mx-auto max-w-7xl px-6 pb-24 pt-24 sm:pb-32 lg:flex lg:px-8 lg:py-40">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl lg:flex-shrink-0 lg:pt-8">
             <Image
               src={avatarImage}
@@ -50,7 +50,7 @@ export default function Course() {
               className="h-14 w-14 rounded-full object-cover"
               priority
             />
-            <div className="mt-24 sm:mt-32 lg:mt-16">
+            <div className="mt-16 sm:mt-32 lg:mt-16">
               <span className="rounded-full bg-rose-600/10 px-3 py-1 font-semibold leading-6 text-rose-600 ring-1 ring-inset ring-rose-600/10">
                 Video course launching March 25, 2025
               </span>
