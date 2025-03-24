@@ -3,6 +3,8 @@ import { Metadata } from "next"
 import Image from "next/image"
 import CountdownBar from "./CountdownBar"
 
+import { redirect } from "next/navigation"
+
 export const metadata: Metadata = {
   title: "Kickstart your Front-End career",
   description:
@@ -13,6 +15,7 @@ export const metadata: Metadata = {
 }
 
 export default function Course() {
+  redirect("https://course.madsbrodt.com")
   return (
     <>
       <CountdownBar />
